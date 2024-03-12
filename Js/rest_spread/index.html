@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+const b=[1,2,3,4]
+const c=[...b]
+c[3]=5
+console.log(b);
+console.log(c);
+
+function rest(values) {
+    console.log(values);
+    // var sum = 0;
+    // for (var i = 0; i < values.length; i++) {
+    //     sum += values[i];
+    // }
+    // console.log(sum);
+}
+rest(10,20,40)
+
+function calculate(a, b) {
+  const add = a + b;
+  const subtract = a - b;
+  const multiply = a * b;
+  const divide = a / b;
+
+ console.log(add, subtract, multiply, divide);
+}
+calculate(4, 7);
+
+
+    </script>
+</body>
+</html>
